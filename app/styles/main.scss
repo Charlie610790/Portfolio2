@@ -1,0 +1,140 @@
+// bower:scss
+// endbower
+
+body {
+    margin: 0px;
+}
+
+.header {
+    display: inline-block;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%);
+    z-index: 4;
+    color: white;
+
+}
+
+.headerimg {
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-image: url('/images/headerimg.jpg');
+}
+
+.secondContainer {
+    padding: 10px;
+    background-color: gray;
+    width: 100%;
+}
+
+.portfolio {
+    display: block;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 40px;
+}
+
+.works {
+    padding: 10px;
+    margin: 0px auto;
+    display: block;
+    background-color: blue;
+    width: calc(90% - 40px);
+    height: 250px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.sampleIMG {
+    display: inline-block;
+    background-color: green;
+    height: 240px;
+    min-height: 250px;
+    width: 30%;
+    min-width: 220px;
+}
+
+.sampleInfo {
+    display: inline-block;
+    background-color: orange;
+    vertical-align: top;
+    padding: 5px;
+    width: 60%;
+    height: 240px;
+}
+
+.projectName {
+    font-size: 40px;
+}
+
+.projectDescrip {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tools {
+    font-size: 12px;
+    color: black;
+}
+
+.toolsUsed {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 70px;
+}
+
+.links {
+    font-size: 20px;
+    float: right;
+}
+
+/////////Portfolio Work
+.imageGallery {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/imagegallery.png');
+}
+
+.surfPaddle {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/surfpaddle.png');
+}
+
+.constructorsGame {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/constructorsgame.png');
+}
+
+.githubRedo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/githubredo.png');
+}
+
+.jquery {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/jquery.png');
+}
+
+.chatapp {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/chatapp.png');
+}
+
+.javascriptExample {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/javascriptexample.png');
+}
+
+.cssExamples {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/cssexamples.png');
+}
