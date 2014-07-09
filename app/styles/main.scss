@@ -133,9 +133,9 @@ a {
 
 .sampleInfo {
     display: inline-block;
-    background-color: #BBBDBF;
     vertical-align: top;
-    padding: 5px;
+    padding: 20px;
+    padding-left: 40px;
     width: 60%;
     height: 240px;
 }
@@ -156,9 +156,10 @@ a {
 }
 
 .toolsUsed {
-    font-size: 24px;
+    font-size: 14px;
     color: black;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 .links {
@@ -366,7 +367,7 @@ a {
     margin-top: 5px;
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 845px) {
 
     .myNamebackground {
     display: block;
@@ -417,6 +418,7 @@ a {
     .links {
         font-size: 15px;
         float: right;
+        margin-right: 50px;
     }
 
     .secondContainer {
@@ -425,8 +427,21 @@ a {
 }
 
 @media screen and (max-width: 450px) {
+
+    .toolsUsed {
+        font-size: 18px;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    .links {
+        
+        margin-right: 0px;
+    }
     .works {
         padding: 0px;
+        height: 420px;
+
 
     }
 
@@ -439,7 +454,7 @@ a {
 
         .sampleInfo {
         width: calc(100% - 40px);
-        height: 140px;
+        height: 180px;
         padding-left: 15px;
         margin-left: 10px;
 
