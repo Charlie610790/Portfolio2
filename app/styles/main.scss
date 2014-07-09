@@ -7,7 +7,6 @@ body {
 
 a {
     color: #000000;
-    text-decoration: none;
 }
 
 .header {
@@ -72,6 +71,10 @@ a {
     display: block;
     float: left;
     margin-left: 30px;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .headerPhone {
@@ -79,6 +82,10 @@ a {
     float: right;
     margin-right: 30px;
     margin-bottom: 10px;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .secondContainer {
@@ -198,6 +205,10 @@ a {
     display: block;
     text-align: center;
     font-size: 20px;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .phone {
@@ -205,6 +216,10 @@ a {
     text-align: center;
     font-size: 20px;
     margin-bottom: 10px;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .socialIcons {
@@ -291,6 +306,14 @@ a {
 }
 
 @media screen and (max-width: 725px) {
+
+    .myNamebackground {
+    display: block;
+    float: right;
+    margin-right: 0px;
+    background-color: white;
+    opacity: 0.4;
+}
    .works {
     display: block;
     width: 100%;
@@ -298,17 +321,18 @@ a {
     }
 
     .sampleIMG {
-        width: 80%;
+        width: calc(100% - 30px);
+        margin-left: 5px;
         height: 240px;
         min-height: 240px;
-        margin-left: 10%;
+        
     }
 
     .sampleInfo {
         display: block;
         height: 140px;
-        width: 80%;
-        margin-left: 10%;
+        width: calc(100% - 40px);
+        margin-left: 5px;
 
     }
 
